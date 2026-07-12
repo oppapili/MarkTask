@@ -4180,3 +4180,1754 @@
 **Event**: HUMAN_TURN
 
 ---
+
+## Human Turn
+**Timestamp**: 2026-07-12T12:48:24Z
+**Event**: HUMAN_TURN
+
+---
+
+## Human Turn
+**Timestamp**: 2026-07-12T12:48:34Z
+**Event**: HUMAN_TURN
+
+---
+
+## Human Turn
+**Timestamp**: 2026-07-12T12:52:17Z
+**Event**: HUMAN_TURN
+
+---
+
+## Workflow Unparked
+**Timestamp**: 2026-07-12T12:52:58Z
+**Event**: WORKFLOW_UNPARKED
+**Timestamp**: 2026-07-12T12:52:58Z
+
+---
+
+## Artifact Created
+**Timestamp**: 2026-07-12T12:54:57Z
+**Event**: ARTIFACT_CREATED
+**Tool**: Write
+**File**: /home/oppapili/projects/MarkTask/aidlc/spaces/default/intents/260712-markdown-task-manager/construction/U-delete-archive/functional-design/business-logic-model.md
+**Context**: construction > U-delete-archive > functional-design > business-logic-model.md
+
+---
+
+## Sensor Fired
+**Timestamp**: 2026-07-12T12:54:57Z
+**Event**: SENSOR_FIRED
+**Fire id**: f7e69ba0
+**Sensor ID**: required-sections
+**Stage slug**: functional-design
+**Output path**: aidlc/spaces/default/intents/260712-markdown-task-manager/construction/U-delete-archive/functional-design/business-logic-model.md
+
+---
+
+## Sensor Passed
+**Timestamp**: 2026-07-12T12:54:57Z
+**Event**: SENSOR_PASSED
+**Fire id**: f7e69ba0
+**Sensor ID**: required-sections
+**Stage slug**: functional-design
+**Output path**: aidlc/spaces/default/intents/260712-markdown-task-manager/construction/U-delete-archive/functional-design/business-logic-model.md
+**Duration ms**: 17
+
+---
+
+## Sensor Fired
+**Timestamp**: 2026-07-12T12:54:57Z
+**Event**: SENSOR_FIRED
+**Fire id**: aff4c31a
+**Sensor ID**: upstream-coverage
+**Stage slug**: functional-design
+**Output path**: aidlc/spaces/default/intents/260712-markdown-task-manager/construction/U-delete-archive/functional-design/business-logic-model.md
+
+---
+
+## Sensor Passed
+**Timestamp**: 2026-07-12T12:54:57Z
+**Event**: SENSOR_PASSED
+**Fire id**: aff4c31a
+**Sensor ID**: upstream-coverage
+**Stage slug**: functional-design
+**Output path**: aidlc/spaces/default/intents/260712-markdown-task-manager/construction/U-delete-archive/functional-design/business-logic-model.md
+**Duration ms**: 17
+
+---
+
+## Artifact Created
+**Timestamp**: 2026-07-12T12:55:11Z
+**Event**: ARTIFACT_CREATED
+**Tool**: Write
+**File**: /home/oppapili/projects/MarkTask/aidlc/spaces/default/intents/260712-markdown-task-manager/construction/U-delete-archive/functional-design/business-rules.md
+**Context**: construction > U-delete-archive > functional-design > business-rules.md
+
+---
+
+## Sensor Fired
+**Timestamp**: 2026-07-12T12:55:11Z
+**Event**: SENSOR_FIRED
+**Fire id**: 1689f713
+**Sensor ID**: required-sections
+**Stage slug**: functional-design
+**Output path**: aidlc/spaces/default/intents/260712-markdown-task-manager/construction/U-delete-archive/functional-design/business-rules.md
+
+---
+
+## Sensor Passed
+**Timestamp**: 2026-07-12T12:55:11Z
+**Event**: SENSOR_PASSED
+**Fire id**: 1689f713
+**Sensor ID**: required-sections
+**Stage slug**: functional-design
+**Output path**: aidlc/spaces/default/intents/260712-markdown-task-manager/construction/U-delete-archive/functional-design/business-rules.md
+**Duration ms**: 17
+
+---
+
+## Sensor Fired
+**Timestamp**: 2026-07-12T12:55:11Z
+**Event**: SENSOR_FIRED
+**Fire id**: dd09391e
+**Sensor ID**: upstream-coverage
+**Stage slug**: functional-design
+**Output path**: aidlc/spaces/default/intents/260712-markdown-task-manager/construction/U-delete-archive/functional-design/business-rules.md
+
+---
+
+## Sensor Failed
+**Timestamp**: 2026-07-12T12:55:11Z
+**Event**: SENSOR_FAILED
+**Fire id**: dd09391e
+**Sensor ID**: upstream-coverage
+**Stage slug**: functional-design
+**Output path**: aidlc/spaces/default/intents/260712-markdown-task-manager/construction/U-delete-archive/functional-design/business-rules.md
+**Detail path**: aidlc/spaces/default/intents/260712-markdown-task-manager/.aidlc-sensors/functional-design/upstream-coverage-dd09391e.md
+**Findings count**: 1
+
+---
+
+## Artifact Created
+**Timestamp**: 2026-07-12T12:55:28Z
+**Event**: ARTIFACT_CREATED
+**Tool**: Write
+**File**: /home/oppapili/projects/MarkTask/aidlc/spaces/default/intents/260712-markdown-task-manager/construction/U-delete-archive/functional-design/domain-entities.md
+**Context**: construction > U-delete-archive > functional-design > domain-entities.md
+
+---
+
+## Sensor Fired
+**Timestamp**: 2026-07-12T12:55:28Z
+**Event**: SENSOR_FIRED
+**Fire id**: d2578ba2
+**Sensor ID**: required-sections
+**Stage slug**: functional-design
+**Output path**: aidlc/spaces/default/intents/260712-markdown-task-manager/construction/U-delete-archive/functional-design/domain-entities.md
+
+---
+
+## Sensor Passed
+**Timestamp**: 2026-07-12T12:55:28Z
+**Event**: SENSOR_PASSED
+**Fire id**: d2578ba2
+**Sensor ID**: required-sections
+**Stage slug**: functional-design
+**Output path**: aidlc/spaces/default/intents/260712-markdown-task-manager/construction/U-delete-archive/functional-design/domain-entities.md
+**Duration ms**: 17
+
+---
+
+## Sensor Fired
+**Timestamp**: 2026-07-12T12:55:28Z
+**Event**: SENSOR_FIRED
+**Fire id**: c4248bff
+**Sensor ID**: upstream-coverage
+**Stage slug**: functional-design
+**Output path**: aidlc/spaces/default/intents/260712-markdown-task-manager/construction/U-delete-archive/functional-design/domain-entities.md
+
+---
+
+## Sensor Failed
+**Timestamp**: 2026-07-12T12:55:28Z
+**Event**: SENSOR_FAILED
+**Fire id**: c4248bff
+**Sensor ID**: upstream-coverage
+**Stage slug**: functional-design
+**Output path**: aidlc/spaces/default/intents/260712-markdown-task-manager/construction/U-delete-archive/functional-design/domain-entities.md
+**Detail path**: aidlc/spaces/default/intents/260712-markdown-task-manager/.aidlc-sensors/functional-design/upstream-coverage-c4248bff.md
+**Findings count**: 1
+
+---
+
+## Subagent Completed
+**Timestamp**: 2026-07-12T12:57:05Z
+**Event**: SUBAGENT_COMPLETED
+**Agent Type**: aidlc-architecture-reviewer-agent
+**Agent ID**: f07eb154-0c12-484d-9fb0-5f8dbcd7eac6
+
+---
+
+## Artifact Created
+**Timestamp**: 2026-07-12T12:57:42Z
+**Event**: ARTIFACT_CREATED
+**Tool**: Write
+**File**: /home/oppapili/projects/MarkTask/aidlc/spaces/default/intents/260712-markdown-task-manager/construction/U-obsidian-interop/functional-design/business-rules.md
+**Context**: construction > U-obsidian-interop > functional-design > business-rules.md
+
+---
+
+## Sensor Fired
+**Timestamp**: 2026-07-12T12:57:43Z
+**Event**: SENSOR_FIRED
+**Fire id**: 435a1c21
+**Sensor ID**: required-sections
+**Stage slug**: functional-design
+**Output path**: aidlc/spaces/default/intents/260712-markdown-task-manager/construction/U-obsidian-interop/functional-design/business-rules.md
+
+---
+
+## Sensor Passed
+**Timestamp**: 2026-07-12T12:57:43Z
+**Event**: SENSOR_PASSED
+**Fire id**: 435a1c21
+**Sensor ID**: required-sections
+**Stage slug**: functional-design
+**Output path**: aidlc/spaces/default/intents/260712-markdown-task-manager/construction/U-obsidian-interop/functional-design/business-rules.md
+**Duration ms**: 17
+
+---
+
+## Sensor Fired
+**Timestamp**: 2026-07-12T12:57:43Z
+**Event**: SENSOR_FIRED
+**Fire id**: 42712f39
+**Sensor ID**: upstream-coverage
+**Stage slug**: functional-design
+**Output path**: aidlc/spaces/default/intents/260712-markdown-task-manager/construction/U-obsidian-interop/functional-design/business-rules.md
+
+---
+
+## Sensor Failed
+**Timestamp**: 2026-07-12T12:57:43Z
+**Event**: SENSOR_FAILED
+**Fire id**: 42712f39
+**Sensor ID**: upstream-coverage
+**Stage slug**: functional-design
+**Output path**: aidlc/spaces/default/intents/260712-markdown-task-manager/construction/U-obsidian-interop/functional-design/business-rules.md
+**Detail path**: aidlc/spaces/default/intents/260712-markdown-task-manager/.aidlc-sensors/functional-design/upstream-coverage-42712f39.md
+**Findings count**: 1
+
+---
+
+## Artifact Created
+**Timestamp**: 2026-07-12T12:58:04Z
+**Event**: ARTIFACT_CREATED
+**Tool**: Write
+**File**: /home/oppapili/projects/MarkTask/aidlc/spaces/default/intents/260712-markdown-task-manager/construction/U-obsidian-interop/functional-design/domain-entities.md
+**Context**: construction > U-obsidian-interop > functional-design > domain-entities.md
+
+---
+
+## Sensor Fired
+**Timestamp**: 2026-07-12T12:58:04Z
+**Event**: SENSOR_FIRED
+**Fire id**: 70db068f
+**Sensor ID**: required-sections
+**Stage slug**: functional-design
+**Output path**: aidlc/spaces/default/intents/260712-markdown-task-manager/construction/U-obsidian-interop/functional-design/domain-entities.md
+
+---
+
+## Sensor Passed
+**Timestamp**: 2026-07-12T12:58:04Z
+**Event**: SENSOR_PASSED
+**Fire id**: 70db068f
+**Sensor ID**: required-sections
+**Stage slug**: functional-design
+**Output path**: aidlc/spaces/default/intents/260712-markdown-task-manager/construction/U-obsidian-interop/functional-design/domain-entities.md
+**Duration ms**: 19
+
+---
+
+## Sensor Fired
+**Timestamp**: 2026-07-12T12:58:04Z
+**Event**: SENSOR_FIRED
+**Fire id**: 3d2da21b
+**Sensor ID**: upstream-coverage
+**Stage slug**: functional-design
+**Output path**: aidlc/spaces/default/intents/260712-markdown-task-manager/construction/U-obsidian-interop/functional-design/domain-entities.md
+
+---
+
+## Sensor Failed
+**Timestamp**: 2026-07-12T12:58:04Z
+**Event**: SENSOR_FAILED
+**Fire id**: 3d2da21b
+**Sensor ID**: upstream-coverage
+**Stage slug**: functional-design
+**Output path**: aidlc/spaces/default/intents/260712-markdown-task-manager/construction/U-obsidian-interop/functional-design/domain-entities.md
+**Detail path**: aidlc/spaces/default/intents/260712-markdown-task-manager/.aidlc-sensors/functional-design/upstream-coverage-3d2da21b.md
+**Findings count**: 1
+
+---
+
+## Subagent Completed
+**Timestamp**: 2026-07-12T13:00:04Z
+**Event**: SUBAGENT_COMPLETED
+**Agent Type**: aidlc-architecture-reviewer-agent
+**Agent ID**: f07eb154-0c12-484d-9fb0-5f8dbcd7eac6
+
+---
+
+## Artifact Created
+**Timestamp**: 2026-07-12T13:00:40Z
+**Event**: ARTIFACT_CREATED
+**Tool**: Write
+**File**: /home/oppapili/projects/MarkTask/aidlc/spaces/default/intents/260712-markdown-task-manager/construction/U-query-search/functional-design/business-logic-model.md
+**Context**: construction > U-query-search > functional-design > business-logic-model.md
+
+---
+
+## Sensor Fired
+**Timestamp**: 2026-07-12T13:00:40Z
+**Event**: SENSOR_FIRED
+**Fire id**: 816b2a6c
+**Sensor ID**: required-sections
+**Stage slug**: functional-design
+**Output path**: aidlc/spaces/default/intents/260712-markdown-task-manager/construction/U-query-search/functional-design/business-logic-model.md
+
+---
+
+## Sensor Passed
+**Timestamp**: 2026-07-12T13:00:40Z
+**Event**: SENSOR_PASSED
+**Fire id**: 816b2a6c
+**Sensor ID**: required-sections
+**Stage slug**: functional-design
+**Output path**: aidlc/spaces/default/intents/260712-markdown-task-manager/construction/U-query-search/functional-design/business-logic-model.md
+**Duration ms**: 18
+
+---
+
+## Sensor Fired
+**Timestamp**: 2026-07-12T13:00:40Z
+**Event**: SENSOR_FIRED
+**Fire id**: 4048f976
+**Sensor ID**: upstream-coverage
+**Stage slug**: functional-design
+**Output path**: aidlc/spaces/default/intents/260712-markdown-task-manager/construction/U-query-search/functional-design/business-logic-model.md
+
+---
+
+## Sensor Passed
+**Timestamp**: 2026-07-12T13:00:40Z
+**Event**: SENSOR_PASSED
+**Fire id**: 4048f976
+**Sensor ID**: upstream-coverage
+**Stage slug**: functional-design
+**Output path**: aidlc/spaces/default/intents/260712-markdown-task-manager/construction/U-query-search/functional-design/business-logic-model.md
+**Duration ms**: 17
+
+---
+
+## Artifact Created
+**Timestamp**: 2026-07-12T13:00:55Z
+**Event**: ARTIFACT_CREATED
+**Tool**: Write
+**File**: /home/oppapili/projects/MarkTask/aidlc/spaces/default/intents/260712-markdown-task-manager/construction/U-query-search/functional-design/business-rules.md
+**Context**: construction > U-query-search > functional-design > business-rules.md
+
+---
+
+## Sensor Fired
+**Timestamp**: 2026-07-12T13:00:56Z
+**Event**: SENSOR_FIRED
+**Fire id**: e3446b12
+**Sensor ID**: required-sections
+**Stage slug**: functional-design
+**Output path**: aidlc/spaces/default/intents/260712-markdown-task-manager/construction/U-query-search/functional-design/business-rules.md
+
+---
+
+## Sensor Passed
+**Timestamp**: 2026-07-12T13:00:56Z
+**Event**: SENSOR_PASSED
+**Fire id**: e3446b12
+**Sensor ID**: required-sections
+**Stage slug**: functional-design
+**Output path**: aidlc/spaces/default/intents/260712-markdown-task-manager/construction/U-query-search/functional-design/business-rules.md
+**Duration ms**: 20
+
+---
+
+## Sensor Fired
+**Timestamp**: 2026-07-12T13:00:56Z
+**Event**: SENSOR_FIRED
+**Fire id**: 9d231379
+**Sensor ID**: upstream-coverage
+**Stage slug**: functional-design
+**Output path**: aidlc/spaces/default/intents/260712-markdown-task-manager/construction/U-query-search/functional-design/business-rules.md
+
+---
+
+## Sensor Failed
+**Timestamp**: 2026-07-12T13:00:56Z
+**Event**: SENSOR_FAILED
+**Fire id**: 9d231379
+**Sensor ID**: upstream-coverage
+**Stage slug**: functional-design
+**Output path**: aidlc/spaces/default/intents/260712-markdown-task-manager/construction/U-query-search/functional-design/business-rules.md
+**Detail path**: aidlc/spaces/default/intents/260712-markdown-task-manager/.aidlc-sensors/functional-design/upstream-coverage-9d231379.md
+**Findings count**: 1
+
+---
+
+## Artifact Created
+**Timestamp**: 2026-07-12T13:01:08Z
+**Event**: ARTIFACT_CREATED
+**Tool**: Write
+**File**: /home/oppapili/projects/MarkTask/aidlc/spaces/default/intents/260712-markdown-task-manager/construction/U-query-search/functional-design/domain-entities.md
+**Context**: construction > U-query-search > functional-design > domain-entities.md
+
+---
+
+## Sensor Fired
+**Timestamp**: 2026-07-12T13:01:08Z
+**Event**: SENSOR_FIRED
+**Fire id**: 717eddff
+**Sensor ID**: required-sections
+**Stage slug**: functional-design
+**Output path**: aidlc/spaces/default/intents/260712-markdown-task-manager/construction/U-query-search/functional-design/domain-entities.md
+
+---
+
+## Sensor Passed
+**Timestamp**: 2026-07-12T13:01:08Z
+**Event**: SENSOR_PASSED
+**Fire id**: 717eddff
+**Sensor ID**: required-sections
+**Stage slug**: functional-design
+**Output path**: aidlc/spaces/default/intents/260712-markdown-task-manager/construction/U-query-search/functional-design/domain-entities.md
+**Duration ms**: 19
+
+---
+
+## Sensor Fired
+**Timestamp**: 2026-07-12T13:01:08Z
+**Event**: SENSOR_FIRED
+**Fire id**: 1ecd5257
+**Sensor ID**: upstream-coverage
+**Stage slug**: functional-design
+**Output path**: aidlc/spaces/default/intents/260712-markdown-task-manager/construction/U-query-search/functional-design/domain-entities.md
+
+---
+
+## Sensor Failed
+**Timestamp**: 2026-07-12T13:01:08Z
+**Event**: SENSOR_FAILED
+**Fire id**: 1ecd5257
+**Sensor ID**: upstream-coverage
+**Stage slug**: functional-design
+**Output path**: aidlc/spaces/default/intents/260712-markdown-task-manager/construction/U-query-search/functional-design/domain-entities.md
+**Detail path**: aidlc/spaces/default/intents/260712-markdown-task-manager/.aidlc-sensors/functional-design/upstream-coverage-1ecd5257.md
+**Findings count**: 1
+
+---
+
+## Subagent Completed
+**Timestamp**: 2026-07-12T13:03:00Z
+**Event**: SUBAGENT_COMPLETED
+**Agent Type**: aidlc-architecture-reviewer-agent
+**Agent ID**: f07eb154-0c12-484d-9fb0-5f8dbcd7eac6
+
+---
+
+## Artifact Created
+**Timestamp**: 2026-07-12T13:03:31Z
+**Event**: ARTIFACT_CREATED
+**Tool**: Write
+**File**: /home/oppapili/projects/MarkTask/aidlc/spaces/default/intents/260712-markdown-task-manager/construction/U-state-management/functional-design/business-logic-model.md
+**Context**: construction > U-state-management > functional-design > business-logic-model.md
+
+---
+
+## Sensor Fired
+**Timestamp**: 2026-07-12T13:03:31Z
+**Event**: SENSOR_FIRED
+**Fire id**: 40098679
+**Sensor ID**: required-sections
+**Stage slug**: functional-design
+**Output path**: aidlc/spaces/default/intents/260712-markdown-task-manager/construction/U-state-management/functional-design/business-logic-model.md
+
+---
+
+## Sensor Passed
+**Timestamp**: 2026-07-12T13:03:31Z
+**Event**: SENSOR_PASSED
+**Fire id**: 40098679
+**Sensor ID**: required-sections
+**Stage slug**: functional-design
+**Output path**: aidlc/spaces/default/intents/260712-markdown-task-manager/construction/U-state-management/functional-design/business-logic-model.md
+**Duration ms**: 18
+
+---
+
+## Sensor Fired
+**Timestamp**: 2026-07-12T13:03:31Z
+**Event**: SENSOR_FIRED
+**Fire id**: 5d5e5306
+**Sensor ID**: upstream-coverage
+**Stage slug**: functional-design
+**Output path**: aidlc/spaces/default/intents/260712-markdown-task-manager/construction/U-state-management/functional-design/business-logic-model.md
+
+---
+
+## Sensor Passed
+**Timestamp**: 2026-07-12T13:03:31Z
+**Event**: SENSOR_PASSED
+**Fire id**: 5d5e5306
+**Sensor ID**: upstream-coverage
+**Stage slug**: functional-design
+**Output path**: aidlc/spaces/default/intents/260712-markdown-task-manager/construction/U-state-management/functional-design/business-logic-model.md
+**Duration ms**: 17
+
+---
+
+## Artifact Created
+**Timestamp**: 2026-07-12T13:03:48Z
+**Event**: ARTIFACT_CREATED
+**Tool**: Write
+**File**: /home/oppapili/projects/MarkTask/aidlc/spaces/default/intents/260712-markdown-task-manager/construction/U-state-management/functional-design/business-rules.md
+**Context**: construction > U-state-management > functional-design > business-rules.md
+
+---
+
+## Sensor Fired
+**Timestamp**: 2026-07-12T13:03:48Z
+**Event**: SENSOR_FIRED
+**Fire id**: 343859ba
+**Sensor ID**: required-sections
+**Stage slug**: functional-design
+**Output path**: aidlc/spaces/default/intents/260712-markdown-task-manager/construction/U-state-management/functional-design/business-rules.md
+
+---
+
+## Sensor Passed
+**Timestamp**: 2026-07-12T13:03:48Z
+**Event**: SENSOR_PASSED
+**Fire id**: 343859ba
+**Sensor ID**: required-sections
+**Stage slug**: functional-design
+**Output path**: aidlc/spaces/default/intents/260712-markdown-task-manager/construction/U-state-management/functional-design/business-rules.md
+**Duration ms**: 20
+
+---
+
+## Sensor Fired
+**Timestamp**: 2026-07-12T13:03:48Z
+**Event**: SENSOR_FIRED
+**Fire id**: 6d85d111
+**Sensor ID**: upstream-coverage
+**Stage slug**: functional-design
+**Output path**: aidlc/spaces/default/intents/260712-markdown-task-manager/construction/U-state-management/functional-design/business-rules.md
+
+---
+
+## Sensor Failed
+**Timestamp**: 2026-07-12T13:03:48Z
+**Event**: SENSOR_FAILED
+**Fire id**: 6d85d111
+**Sensor ID**: upstream-coverage
+**Stage slug**: functional-design
+**Output path**: aidlc/spaces/default/intents/260712-markdown-task-manager/construction/U-state-management/functional-design/business-rules.md
+**Detail path**: aidlc/spaces/default/intents/260712-markdown-task-manager/.aidlc-sensors/functional-design/upstream-coverage-6d85d111.md
+**Findings count**: 1
+
+---
+
+## Artifact Created
+**Timestamp**: 2026-07-12T13:04:04Z
+**Event**: ARTIFACT_CREATED
+**Tool**: Write
+**File**: /home/oppapili/projects/MarkTask/aidlc/spaces/default/intents/260712-markdown-task-manager/construction/U-state-management/functional-design/domain-entities.md
+**Context**: construction > U-state-management > functional-design > domain-entities.md
+
+---
+
+## Sensor Fired
+**Timestamp**: 2026-07-12T13:04:04Z
+**Event**: SENSOR_FIRED
+**Fire id**: 4ce81936
+**Sensor ID**: required-sections
+**Stage slug**: functional-design
+**Output path**: aidlc/spaces/default/intents/260712-markdown-task-manager/construction/U-state-management/functional-design/domain-entities.md
+
+---
+
+## Sensor Passed
+**Timestamp**: 2026-07-12T13:04:04Z
+**Event**: SENSOR_PASSED
+**Fire id**: 4ce81936
+**Sensor ID**: required-sections
+**Stage slug**: functional-design
+**Output path**: aidlc/spaces/default/intents/260712-markdown-task-manager/construction/U-state-management/functional-design/domain-entities.md
+**Duration ms**: 18
+
+---
+
+## Sensor Fired
+**Timestamp**: 2026-07-12T13:04:04Z
+**Event**: SENSOR_FIRED
+**Fire id**: 7acb1b4a
+**Sensor ID**: upstream-coverage
+**Stage slug**: functional-design
+**Output path**: aidlc/spaces/default/intents/260712-markdown-task-manager/construction/U-state-management/functional-design/domain-entities.md
+
+---
+
+## Sensor Failed
+**Timestamp**: 2026-07-12T13:04:04Z
+**Event**: SENSOR_FAILED
+**Fire id**: 7acb1b4a
+**Sensor ID**: upstream-coverage
+**Stage slug**: functional-design
+**Output path**: aidlc/spaces/default/intents/260712-markdown-task-manager/construction/U-state-management/functional-design/domain-entities.md
+**Detail path**: aidlc/spaces/default/intents/260712-markdown-task-manager/.aidlc-sensors/functional-design/upstream-coverage-7acb1b4a.md
+**Findings count**: 1
+
+---
+
+## Session Start
+**Timestamp**: 2026-07-12T13:04:13Z
+**Event**: SESSION_STARTED
+**Source**: startup
+
+---
+
+## Subagent Completed
+**Timestamp**: 2026-07-12T13:05:57Z
+**Event**: SUBAGENT_COMPLETED
+**Agent Type**: aidlc-architecture-reviewer-agent
+**Agent ID**: f07eb154-0c12-484d-9fb0-5f8dbcd7eac6
+
+---
+
+## Artifact Created
+**Timestamp**: 2026-07-12T13:07:02Z
+**Event**: ARTIFACT_CREATED
+**Tool**: Write
+**File**: /home/oppapili/projects/MarkTask/aidlc/spaces/default/intents/260712-markdown-task-manager/construction/U-recurrence/functional-design/business-logic-model.md
+**Context**: construction > U-recurrence > functional-design > business-logic-model.md
+
+---
+
+## Sensor Fired
+**Timestamp**: 2026-07-12T13:07:02Z
+**Event**: SENSOR_FIRED
+**Fire id**: ec975efd
+**Sensor ID**: required-sections
+**Stage slug**: functional-design
+**Output path**: aidlc/spaces/default/intents/260712-markdown-task-manager/construction/U-recurrence/functional-design/business-logic-model.md
+
+---
+
+## Sensor Passed
+**Timestamp**: 2026-07-12T13:07:02Z
+**Event**: SENSOR_PASSED
+**Fire id**: ec975efd
+**Sensor ID**: required-sections
+**Stage slug**: functional-design
+**Output path**: aidlc/spaces/default/intents/260712-markdown-task-manager/construction/U-recurrence/functional-design/business-logic-model.md
+**Duration ms**: 18
+
+---
+
+## Sensor Fired
+**Timestamp**: 2026-07-12T13:07:02Z
+**Event**: SENSOR_FIRED
+**Fire id**: 07f2e464
+**Sensor ID**: upstream-coverage
+**Stage slug**: functional-design
+**Output path**: aidlc/spaces/default/intents/260712-markdown-task-manager/construction/U-recurrence/functional-design/business-logic-model.md
+
+---
+
+## Sensor Passed
+**Timestamp**: 2026-07-12T13:07:02Z
+**Event**: SENSOR_PASSED
+**Fire id**: 07f2e464
+**Sensor ID**: upstream-coverage
+**Stage slug**: functional-design
+**Output path**: aidlc/spaces/default/intents/260712-markdown-task-manager/construction/U-recurrence/functional-design/business-logic-model.md
+**Duration ms**: 17
+
+---
+
+## Artifact Created
+**Timestamp**: 2026-07-12T13:07:26Z
+**Event**: ARTIFACT_CREATED
+**Tool**: Write
+**File**: /home/oppapili/projects/MarkTask/aidlc/spaces/default/intents/260712-markdown-task-manager/construction/U-recurrence/functional-design/business-rules.md
+**Context**: construction > U-recurrence > functional-design > business-rules.md
+
+---
+
+## Sensor Fired
+**Timestamp**: 2026-07-12T13:07:26Z
+**Event**: SENSOR_FIRED
+**Fire id**: 252d72f7
+**Sensor ID**: required-sections
+**Stage slug**: functional-design
+**Output path**: aidlc/spaces/default/intents/260712-markdown-task-manager/construction/U-recurrence/functional-design/business-rules.md
+
+---
+
+## Sensor Passed
+**Timestamp**: 2026-07-12T13:07:26Z
+**Event**: SENSOR_PASSED
+**Fire id**: 252d72f7
+**Sensor ID**: required-sections
+**Stage slug**: functional-design
+**Output path**: aidlc/spaces/default/intents/260712-markdown-task-manager/construction/U-recurrence/functional-design/business-rules.md
+**Duration ms**: 17
+
+---
+
+## Sensor Fired
+**Timestamp**: 2026-07-12T13:07:26Z
+**Event**: SENSOR_FIRED
+**Fire id**: 7eb87736
+**Sensor ID**: upstream-coverage
+**Stage slug**: functional-design
+**Output path**: aidlc/spaces/default/intents/260712-markdown-task-manager/construction/U-recurrence/functional-design/business-rules.md
+
+---
+
+## Sensor Failed
+**Timestamp**: 2026-07-12T13:07:26Z
+**Event**: SENSOR_FAILED
+**Fire id**: 7eb87736
+**Sensor ID**: upstream-coverage
+**Stage slug**: functional-design
+**Output path**: aidlc/spaces/default/intents/260712-markdown-task-manager/construction/U-recurrence/functional-design/business-rules.md
+**Detail path**: aidlc/spaces/default/intents/260712-markdown-task-manager/.aidlc-sensors/functional-design/upstream-coverage-7eb87736.md
+**Findings count**: 1
+
+---
+
+## Artifact Created
+**Timestamp**: 2026-07-12T13:07:43Z
+**Event**: ARTIFACT_CREATED
+**Tool**: Write
+**File**: /home/oppapili/projects/MarkTask/aidlc/spaces/default/intents/260712-markdown-task-manager/construction/U-recurrence/functional-design/domain-entities.md
+**Context**: construction > U-recurrence > functional-design > domain-entities.md
+
+---
+
+## Sensor Fired
+**Timestamp**: 2026-07-12T13:07:43Z
+**Event**: SENSOR_FIRED
+**Fire id**: fe7ebad6
+**Sensor ID**: required-sections
+**Stage slug**: functional-design
+**Output path**: aidlc/spaces/default/intents/260712-markdown-task-manager/construction/U-recurrence/functional-design/domain-entities.md
+
+---
+
+## Sensor Passed
+**Timestamp**: 2026-07-12T13:07:43Z
+**Event**: SENSOR_PASSED
+**Fire id**: fe7ebad6
+**Sensor ID**: required-sections
+**Stage slug**: functional-design
+**Output path**: aidlc/spaces/default/intents/260712-markdown-task-manager/construction/U-recurrence/functional-design/domain-entities.md
+**Duration ms**: 19
+
+---
+
+## Sensor Fired
+**Timestamp**: 2026-07-12T13:07:43Z
+**Event**: SENSOR_FIRED
+**Fire id**: 252ab933
+**Sensor ID**: upstream-coverage
+**Stage slug**: functional-design
+**Output path**: aidlc/spaces/default/intents/260712-markdown-task-manager/construction/U-recurrence/functional-design/domain-entities.md
+
+---
+
+## Sensor Failed
+**Timestamp**: 2026-07-12T13:07:43Z
+**Event**: SENSOR_FAILED
+**Fire id**: 252ab933
+**Sensor ID**: upstream-coverage
+**Stage slug**: functional-design
+**Output path**: aidlc/spaces/default/intents/260712-markdown-task-manager/construction/U-recurrence/functional-design/domain-entities.md
+**Detail path**: aidlc/spaces/default/intents/260712-markdown-task-manager/.aidlc-sensors/functional-design/upstream-coverage-252ab933.md
+**Findings count**: 1
+
+---
+
+## Subagent Completed
+**Timestamp**: 2026-07-12T13:09:51Z
+**Event**: SUBAGENT_COMPLETED
+**Agent Type**: aidlc-architecture-reviewer-agent
+**Agent ID**: f07eb154-0c12-484d-9fb0-5f8dbcd7eac6
+
+---
+
+## Artifact Created
+**Timestamp**: 2026-07-12T13:10:30Z
+**Event**: ARTIFACT_CREATED
+**Tool**: Write
+**File**: /home/oppapili/projects/MarkTask/aidlc/spaces/default/intents/260712-markdown-task-manager/construction/U-subtasks/functional-design/business-logic-model.md
+**Context**: construction > U-subtasks > functional-design > business-logic-model.md
+
+---
+
+## Sensor Fired
+**Timestamp**: 2026-07-12T13:10:30Z
+**Event**: SENSOR_FIRED
+**Fire id**: cd8cf851
+**Sensor ID**: required-sections
+**Stage slug**: functional-design
+**Output path**: aidlc/spaces/default/intents/260712-markdown-task-manager/construction/U-subtasks/functional-design/business-logic-model.md
+
+---
+
+## Sensor Passed
+**Timestamp**: 2026-07-12T13:10:30Z
+**Event**: SENSOR_PASSED
+**Fire id**: cd8cf851
+**Sensor ID**: required-sections
+**Stage slug**: functional-design
+**Output path**: aidlc/spaces/default/intents/260712-markdown-task-manager/construction/U-subtasks/functional-design/business-logic-model.md
+**Duration ms**: 19
+
+---
+
+## Sensor Fired
+**Timestamp**: 2026-07-12T13:10:30Z
+**Event**: SENSOR_FIRED
+**Fire id**: da7b99de
+**Sensor ID**: upstream-coverage
+**Stage slug**: functional-design
+**Output path**: aidlc/spaces/default/intents/260712-markdown-task-manager/construction/U-subtasks/functional-design/business-logic-model.md
+
+---
+
+## Sensor Passed
+**Timestamp**: 2026-07-12T13:10:30Z
+**Event**: SENSOR_PASSED
+**Fire id**: da7b99de
+**Sensor ID**: upstream-coverage
+**Stage slug**: functional-design
+**Output path**: aidlc/spaces/default/intents/260712-markdown-task-manager/construction/U-subtasks/functional-design/business-logic-model.md
+**Duration ms**: 17
+
+---
+
+## Artifact Created
+**Timestamp**: 2026-07-12T13:10:45Z
+**Event**: ARTIFACT_CREATED
+**Tool**: Write
+**File**: /home/oppapili/projects/MarkTask/aidlc/spaces/default/intents/260712-markdown-task-manager/construction/U-subtasks/functional-design/business-rules.md
+**Context**: construction > U-subtasks > functional-design > business-rules.md
+
+---
+
+## Sensor Fired
+**Timestamp**: 2026-07-12T13:10:45Z
+**Event**: SENSOR_FIRED
+**Fire id**: b89303df
+**Sensor ID**: required-sections
+**Stage slug**: functional-design
+**Output path**: aidlc/spaces/default/intents/260712-markdown-task-manager/construction/U-subtasks/functional-design/business-rules.md
+
+---
+
+## Sensor Passed
+**Timestamp**: 2026-07-12T13:10:45Z
+**Event**: SENSOR_PASSED
+**Fire id**: b89303df
+**Sensor ID**: required-sections
+**Stage slug**: functional-design
+**Output path**: aidlc/spaces/default/intents/260712-markdown-task-manager/construction/U-subtasks/functional-design/business-rules.md
+**Duration ms**: 17
+
+---
+
+## Sensor Fired
+**Timestamp**: 2026-07-12T13:10:45Z
+**Event**: SENSOR_FIRED
+**Fire id**: e02fe83e
+**Sensor ID**: upstream-coverage
+**Stage slug**: functional-design
+**Output path**: aidlc/spaces/default/intents/260712-markdown-task-manager/construction/U-subtasks/functional-design/business-rules.md
+
+---
+
+## Sensor Failed
+**Timestamp**: 2026-07-12T13:10:45Z
+**Event**: SENSOR_FAILED
+**Fire id**: e02fe83e
+**Sensor ID**: upstream-coverage
+**Stage slug**: functional-design
+**Output path**: aidlc/spaces/default/intents/260712-markdown-task-manager/construction/U-subtasks/functional-design/business-rules.md
+**Detail path**: aidlc/spaces/default/intents/260712-markdown-task-manager/.aidlc-sensors/functional-design/upstream-coverage-e02fe83e.md
+**Findings count**: 1
+
+---
+
+## Artifact Created
+**Timestamp**: 2026-07-12T13:11:03Z
+**Event**: ARTIFACT_CREATED
+**Tool**: Write
+**File**: /home/oppapili/projects/MarkTask/aidlc/spaces/default/intents/260712-markdown-task-manager/construction/U-subtasks/functional-design/domain-entities.md
+**Context**: construction > U-subtasks > functional-design > domain-entities.md
+
+---
+
+## Sensor Fired
+**Timestamp**: 2026-07-12T13:11:03Z
+**Event**: SENSOR_FIRED
+**Fire id**: 109c05f1
+**Sensor ID**: required-sections
+**Stage slug**: functional-design
+**Output path**: aidlc/spaces/default/intents/260712-markdown-task-manager/construction/U-subtasks/functional-design/domain-entities.md
+
+---
+
+## Sensor Passed
+**Timestamp**: 2026-07-12T13:11:03Z
+**Event**: SENSOR_PASSED
+**Fire id**: 109c05f1
+**Sensor ID**: required-sections
+**Stage slug**: functional-design
+**Output path**: aidlc/spaces/default/intents/260712-markdown-task-manager/construction/U-subtasks/functional-design/domain-entities.md
+**Duration ms**: 17
+
+---
+
+## Sensor Fired
+**Timestamp**: 2026-07-12T13:11:03Z
+**Event**: SENSOR_FIRED
+**Fire id**: 62ea7189
+**Sensor ID**: upstream-coverage
+**Stage slug**: functional-design
+**Output path**: aidlc/spaces/default/intents/260712-markdown-task-manager/construction/U-subtasks/functional-design/domain-entities.md
+
+---
+
+## Sensor Failed
+**Timestamp**: 2026-07-12T13:11:03Z
+**Event**: SENSOR_FAILED
+**Fire id**: 62ea7189
+**Sensor ID**: upstream-coverage
+**Stage slug**: functional-design
+**Output path**: aidlc/spaces/default/intents/260712-markdown-task-manager/construction/U-subtasks/functional-design/domain-entities.md
+**Detail path**: aidlc/spaces/default/intents/260712-markdown-task-manager/.aidlc-sensors/functional-design/upstream-coverage-62ea7189.md
+**Findings count**: 1
+
+---
+
+## Session Start
+**Timestamp**: 2026-07-12T13:11:08Z
+**Event**: SESSION_STARTED
+**Source**: startup
+
+---
+
+## Subagent Completed
+**Timestamp**: 2026-07-12T13:16:03Z
+**Event**: SUBAGENT_COMPLETED
+**Agent Type**: aidlc-architecture-reviewer-agent
+**Agent ID**: f07eb154-0c12-484d-9fb0-5f8dbcd7eac6
+
+---
+
+## Artifact Created
+**Timestamp**: 2026-07-12T13:16:40Z
+**Event**: ARTIFACT_CREATED
+**Tool**: Write
+**File**: /home/oppapili/projects/MarkTask/aidlc/spaces/default/intents/260712-markdown-task-manager/construction/U-cli/functional-design/business-logic-model.md
+**Context**: construction > U-cli > functional-design > business-logic-model.md
+
+---
+
+## Sensor Fired
+**Timestamp**: 2026-07-12T13:16:40Z
+**Event**: SENSOR_FIRED
+**Fire id**: c5793905
+**Sensor ID**: required-sections
+**Stage slug**: functional-design
+**Output path**: aidlc/spaces/default/intents/260712-markdown-task-manager/construction/U-cli/functional-design/business-logic-model.md
+
+---
+
+## Sensor Passed
+**Timestamp**: 2026-07-12T13:16:40Z
+**Event**: SENSOR_PASSED
+**Fire id**: c5793905
+**Sensor ID**: required-sections
+**Stage slug**: functional-design
+**Output path**: aidlc/spaces/default/intents/260712-markdown-task-manager/construction/U-cli/functional-design/business-logic-model.md
+**Duration ms**: 19
+
+---
+
+## Sensor Fired
+**Timestamp**: 2026-07-12T13:16:40Z
+**Event**: SENSOR_FIRED
+**Fire id**: 2366ca04
+**Sensor ID**: upstream-coverage
+**Stage slug**: functional-design
+**Output path**: aidlc/spaces/default/intents/260712-markdown-task-manager/construction/U-cli/functional-design/business-logic-model.md
+
+---
+
+## Sensor Passed
+**Timestamp**: 2026-07-12T13:16:40Z
+**Event**: SENSOR_PASSED
+**Fire id**: 2366ca04
+**Sensor ID**: upstream-coverage
+**Stage slug**: functional-design
+**Output path**: aidlc/spaces/default/intents/260712-markdown-task-manager/construction/U-cli/functional-design/business-logic-model.md
+**Duration ms**: 17
+
+---
+
+## Artifact Created
+**Timestamp**: 2026-07-12T13:16:58Z
+**Event**: ARTIFACT_CREATED
+**Tool**: Write
+**File**: /home/oppapili/projects/MarkTask/aidlc/spaces/default/intents/260712-markdown-task-manager/construction/U-cli/functional-design/business-rules.md
+**Context**: construction > U-cli > functional-design > business-rules.md
+
+---
+
+## Sensor Fired
+**Timestamp**: 2026-07-12T13:16:58Z
+**Event**: SENSOR_FIRED
+**Fire id**: 59229e23
+**Sensor ID**: required-sections
+**Stage slug**: functional-design
+**Output path**: aidlc/spaces/default/intents/260712-markdown-task-manager/construction/U-cli/functional-design/business-rules.md
+
+---
+
+## Sensor Passed
+**Timestamp**: 2026-07-12T13:16:58Z
+**Event**: SENSOR_PASSED
+**Fire id**: 59229e23
+**Sensor ID**: required-sections
+**Stage slug**: functional-design
+**Output path**: aidlc/spaces/default/intents/260712-markdown-task-manager/construction/U-cli/functional-design/business-rules.md
+**Duration ms**: 18
+
+---
+
+## Sensor Fired
+**Timestamp**: 2026-07-12T13:16:58Z
+**Event**: SENSOR_FIRED
+**Fire id**: cf11b776
+**Sensor ID**: upstream-coverage
+**Stage slug**: functional-design
+**Output path**: aidlc/spaces/default/intents/260712-markdown-task-manager/construction/U-cli/functional-design/business-rules.md
+
+---
+
+## Sensor Failed
+**Timestamp**: 2026-07-12T13:16:58Z
+**Event**: SENSOR_FAILED
+**Fire id**: cf11b776
+**Sensor ID**: upstream-coverage
+**Stage slug**: functional-design
+**Output path**: aidlc/spaces/default/intents/260712-markdown-task-manager/construction/U-cli/functional-design/business-rules.md
+**Detail path**: aidlc/spaces/default/intents/260712-markdown-task-manager/.aidlc-sensors/functional-design/upstream-coverage-cf11b776.md
+**Findings count**: 1
+
+---
+
+## Artifact Created
+**Timestamp**: 2026-07-12T13:17:13Z
+**Event**: ARTIFACT_CREATED
+**Tool**: Write
+**File**: /home/oppapili/projects/MarkTask/aidlc/spaces/default/intents/260712-markdown-task-manager/construction/U-cli/functional-design/domain-entities.md
+**Context**: construction > U-cli > functional-design > domain-entities.md
+
+---
+
+## Sensor Fired
+**Timestamp**: 2026-07-12T13:17:13Z
+**Event**: SENSOR_FIRED
+**Fire id**: 26de26e7
+**Sensor ID**: required-sections
+**Stage slug**: functional-design
+**Output path**: aidlc/spaces/default/intents/260712-markdown-task-manager/construction/U-cli/functional-design/domain-entities.md
+
+---
+
+## Sensor Passed
+**Timestamp**: 2026-07-12T13:17:13Z
+**Event**: SENSOR_PASSED
+**Fire id**: 26de26e7
+**Sensor ID**: required-sections
+**Stage slug**: functional-design
+**Output path**: aidlc/spaces/default/intents/260712-markdown-task-manager/construction/U-cli/functional-design/domain-entities.md
+**Duration ms**: 20
+
+---
+
+## Sensor Fired
+**Timestamp**: 2026-07-12T13:17:13Z
+**Event**: SENSOR_FIRED
+**Fire id**: ca9949b1
+**Sensor ID**: upstream-coverage
+**Stage slug**: functional-design
+**Output path**: aidlc/spaces/default/intents/260712-markdown-task-manager/construction/U-cli/functional-design/domain-entities.md
+
+---
+
+## Sensor Failed
+**Timestamp**: 2026-07-12T13:17:13Z
+**Event**: SENSOR_FAILED
+**Fire id**: ca9949b1
+**Sensor ID**: upstream-coverage
+**Stage slug**: functional-design
+**Output path**: aidlc/spaces/default/intents/260712-markdown-task-manager/construction/U-cli/functional-design/domain-entities.md
+**Detail path**: aidlc/spaces/default/intents/260712-markdown-task-manager/.aidlc-sensors/functional-design/upstream-coverage-ca9949b1.md
+**Findings count**: 1
+
+---
+
+## Subagent Completed
+**Timestamp**: 2026-07-12T13:19:01Z
+**Event**: SUBAGENT_COMPLETED
+**Agent Type**: aidlc-architecture-reviewer-agent
+**Agent ID**: f07eb154-0c12-484d-9fb0-5f8dbcd7eac6
+
+---
+
+## Artifact Created
+**Timestamp**: 2026-07-12T13:19:34Z
+**Event**: ARTIFACT_CREATED
+**Tool**: Write
+**File**: /home/oppapili/projects/MarkTask/aidlc/spaces/default/intents/260712-markdown-task-manager/construction/U-mcp/functional-design/business-logic-model.md
+**Context**: construction > U-mcp > functional-design > business-logic-model.md
+
+---
+
+## Sensor Fired
+**Timestamp**: 2026-07-12T13:19:34Z
+**Event**: SENSOR_FIRED
+**Fire id**: ec50fd04
+**Sensor ID**: required-sections
+**Stage slug**: functional-design
+**Output path**: aidlc/spaces/default/intents/260712-markdown-task-manager/construction/U-mcp/functional-design/business-logic-model.md
+
+---
+
+## Sensor Passed
+**Timestamp**: 2026-07-12T13:19:34Z
+**Event**: SENSOR_PASSED
+**Fire id**: ec50fd04
+**Sensor ID**: required-sections
+**Stage slug**: functional-design
+**Output path**: aidlc/spaces/default/intents/260712-markdown-task-manager/construction/U-mcp/functional-design/business-logic-model.md
+**Duration ms**: 19
+
+---
+
+## Sensor Fired
+**Timestamp**: 2026-07-12T13:19:34Z
+**Event**: SENSOR_FIRED
+**Fire id**: d7f4230f
+**Sensor ID**: upstream-coverage
+**Stage slug**: functional-design
+**Output path**: aidlc/spaces/default/intents/260712-markdown-task-manager/construction/U-mcp/functional-design/business-logic-model.md
+
+---
+
+## Sensor Passed
+**Timestamp**: 2026-07-12T13:19:34Z
+**Event**: SENSOR_PASSED
+**Fire id**: d7f4230f
+**Sensor ID**: upstream-coverage
+**Stage slug**: functional-design
+**Output path**: aidlc/spaces/default/intents/260712-markdown-task-manager/construction/U-mcp/functional-design/business-logic-model.md
+**Duration ms**: 17
+
+---
+
+## Artifact Created
+**Timestamp**: 2026-07-12T13:19:46Z
+**Event**: ARTIFACT_CREATED
+**Tool**: Write
+**File**: /home/oppapili/projects/MarkTask/aidlc/spaces/default/intents/260712-markdown-task-manager/construction/U-mcp/functional-design/business-rules.md
+**Context**: construction > U-mcp > functional-design > business-rules.md
+
+---
+
+## Sensor Fired
+**Timestamp**: 2026-07-12T13:19:46Z
+**Event**: SENSOR_FIRED
+**Fire id**: f00f0a78
+**Sensor ID**: required-sections
+**Stage slug**: functional-design
+**Output path**: aidlc/spaces/default/intents/260712-markdown-task-manager/construction/U-mcp/functional-design/business-rules.md
+
+---
+
+## Sensor Passed
+**Timestamp**: 2026-07-12T13:19:46Z
+**Event**: SENSOR_PASSED
+**Fire id**: f00f0a78
+**Sensor ID**: required-sections
+**Stage slug**: functional-design
+**Output path**: aidlc/spaces/default/intents/260712-markdown-task-manager/construction/U-mcp/functional-design/business-rules.md
+**Duration ms**: 16
+
+---
+
+## Sensor Fired
+**Timestamp**: 2026-07-12T13:19:46Z
+**Event**: SENSOR_FIRED
+**Fire id**: 7b541174
+**Sensor ID**: upstream-coverage
+**Stage slug**: functional-design
+**Output path**: aidlc/spaces/default/intents/260712-markdown-task-manager/construction/U-mcp/functional-design/business-rules.md
+
+---
+
+## Sensor Failed
+**Timestamp**: 2026-07-12T13:19:46Z
+**Event**: SENSOR_FAILED
+**Fire id**: 7b541174
+**Sensor ID**: upstream-coverage
+**Stage slug**: functional-design
+**Output path**: aidlc/spaces/default/intents/260712-markdown-task-manager/construction/U-mcp/functional-design/business-rules.md
+**Detail path**: aidlc/spaces/default/intents/260712-markdown-task-manager/.aidlc-sensors/functional-design/upstream-coverage-7b541174.md
+**Findings count**: 1
+
+---
+
+## Artifact Created
+**Timestamp**: 2026-07-12T13:20:03Z
+**Event**: ARTIFACT_CREATED
+**Tool**: Write
+**File**: /home/oppapili/projects/MarkTask/aidlc/spaces/default/intents/260712-markdown-task-manager/construction/U-mcp/functional-design/domain-entities.md
+**Context**: construction > U-mcp > functional-design > domain-entities.md
+
+---
+
+## Sensor Fired
+**Timestamp**: 2026-07-12T13:20:03Z
+**Event**: SENSOR_FIRED
+**Fire id**: 5b0bad7e
+**Sensor ID**: required-sections
+**Stage slug**: functional-design
+**Output path**: aidlc/spaces/default/intents/260712-markdown-task-manager/construction/U-mcp/functional-design/domain-entities.md
+
+---
+
+## Sensor Passed
+**Timestamp**: 2026-07-12T13:20:03Z
+**Event**: SENSOR_PASSED
+**Fire id**: 5b0bad7e
+**Sensor ID**: required-sections
+**Stage slug**: functional-design
+**Output path**: aidlc/spaces/default/intents/260712-markdown-task-manager/construction/U-mcp/functional-design/domain-entities.md
+**Duration ms**: 16
+
+---
+
+## Sensor Fired
+**Timestamp**: 2026-07-12T13:20:03Z
+**Event**: SENSOR_FIRED
+**Fire id**: 2429d647
+**Sensor ID**: upstream-coverage
+**Stage slug**: functional-design
+**Output path**: aidlc/spaces/default/intents/260712-markdown-task-manager/construction/U-mcp/functional-design/domain-entities.md
+
+---
+
+## Sensor Failed
+**Timestamp**: 2026-07-12T13:20:03Z
+**Event**: SENSOR_FAILED
+**Fire id**: 2429d647
+**Sensor ID**: upstream-coverage
+**Stage slug**: functional-design
+**Output path**: aidlc/spaces/default/intents/260712-markdown-task-manager/construction/U-mcp/functional-design/domain-entities.md
+**Detail path**: aidlc/spaces/default/intents/260712-markdown-task-manager/.aidlc-sensors/functional-design/upstream-coverage-2429d647.md
+**Findings count**: 1
+
+---
+
+## Subagent Completed
+**Timestamp**: 2026-07-12T13:21:44Z
+**Event**: SUBAGENT_COMPLETED
+**Agent Type**: aidlc-architecture-reviewer-agent
+**Agent ID**: f07eb154-0c12-484d-9fb0-5f8dbcd7eac6
+
+---
+
+## Artifact Updated
+**Timestamp**: 2026-07-12T13:22:07Z
+**Event**: ARTIFACT_UPDATED
+**Tool**: Write
+**File**: /home/oppapili/projects/MarkTask/aidlc/spaces/default/intents/260712-markdown-task-manager/construction/functional-design/memory.md
+**Context**: construction > functional-design > memory.md
+
+---
+
+## Sensor Fired
+**Timestamp**: 2026-07-12T13:22:07Z
+**Event**: SENSOR_FIRED
+**Fire id**: 1c6b0df9
+**Sensor ID**: required-sections
+**Stage slug**: functional-design
+**Output path**: aidlc/spaces/default/intents/260712-markdown-task-manager/construction/functional-design/memory.md
+
+---
+
+## Sensor Passed
+**Timestamp**: 2026-07-12T13:22:07Z
+**Event**: SENSOR_PASSED
+**Fire id**: 1c6b0df9
+**Sensor ID**: required-sections
+**Stage slug**: functional-design
+**Output path**: aidlc/spaces/default/intents/260712-markdown-task-manager/construction/functional-design/memory.md
+**Duration ms**: 18
+
+---
+
+## Sensor Fired
+**Timestamp**: 2026-07-12T13:22:07Z
+**Event**: SENSOR_FIRED
+**Fire id**: 797673e4
+**Sensor ID**: upstream-coverage
+**Stage slug**: functional-design
+**Output path**: aidlc/spaces/default/intents/260712-markdown-task-manager/construction/functional-design/memory.md
+
+---
+
+## Sensor Failed
+**Timestamp**: 2026-07-12T13:22:07Z
+**Event**: SENSOR_FAILED
+**Fire id**: 797673e4
+**Sensor ID**: upstream-coverage
+**Stage slug**: functional-design
+**Output path**: aidlc/spaces/default/intents/260712-markdown-task-manager/construction/functional-design/memory.md
+**Detail path**: aidlc/spaces/default/intents/260712-markdown-task-manager/.aidlc-sensors/functional-design/upstream-coverage-797673e4.md
+**Findings count**: 3
+
+---
+
+## Stage Awaiting Approval
+**Timestamp**: 2026-07-12T13:22:16Z
+**Event**: STAGE_AWAITING_APPROVAL
+**Stage**: functional-design
+
+---
+
+## Decision Recorded
+**Timestamp**: 2026-07-12T13:22:16Z
+**Event**: DECISION_RECORDED
+**Stage**: functional-design
+**Decision**: Functional Design approval gate (all 9 units)
+**Options**: Approve,Request Changes
+
+---
+
+## Human Turn
+**Timestamp**: 2026-07-12T13:24:35Z
+**Event**: HUMAN_TURN
+
+---
+
+## Gate Approved
+**Timestamp**: 2026-07-12T13:24:46Z
+**Event**: GATE_APPROVED
+**Stage**: functional-design
+**User Input**: 1. 承認 — NFR Requirements へ進む
+
+---
+
+## Stage Completion
+**Timestamp**: 2026-07-12T13:24:46Z
+**Event**: STAGE_COMPLETED
+**Stage**: functional-design
+**Details**: Stage Functional Design approved by gate
+
+---
+
+## Stage Start
+**Timestamp**: 2026-07-12T13:24:46Z
+**Event**: STAGE_STARTED
+**Stage**: nfr-requirements
+**Agent**: aidlc-architect-agent
+
+---
+
+## Artifact Created
+**Timestamp**: 2026-07-12T13:24:55Z
+**Event**: ARTIFACT_CREATED
+**Tool**: Write
+**File**: /home/oppapili/projects/MarkTask/aidlc/spaces/default/intents/260712-markdown-task-manager/construction/functional-design/.learnings-selections.json
+**Context**: construction > functional-design > .learnings-selections.json
+
+---
+
+## Sensor Fired
+**Timestamp**: 2026-07-12T13:24:55Z
+**Event**: SENSOR_FIRED
+**Fire id**: ad6e4fae
+**Sensor ID**: required-sections
+**Stage slug**: nfr-requirements
+**Output path**: aidlc/spaces/default/intents/260712-markdown-task-manager/construction/functional-design/.learnings-selections.json
+
+---
+
+## Sensor Failed
+**Timestamp**: 2026-07-12T13:24:55Z
+**Event**: SENSOR_FAILED
+**Fire id**: ad6e4fae
+**Sensor ID**: required-sections
+**Stage slug**: nfr-requirements
+**Output path**: aidlc/spaces/default/intents/260712-markdown-task-manager/construction/functional-design/.learnings-selections.json
+**Detail path**: aidlc/spaces/default/intents/260712-markdown-task-manager/.aidlc-sensors/nfr-requirements/required-sections-ad6e4fae.md
+**Findings count**: 2
+
+---
+
+## Sensor Fired
+**Timestamp**: 2026-07-12T13:24:55Z
+**Event**: SENSOR_FIRED
+**Fire id**: fa4d6415
+**Sensor ID**: upstream-coverage
+**Stage slug**: nfr-requirements
+**Output path**: aidlc/spaces/default/intents/260712-markdown-task-manager/construction/functional-design/.learnings-selections.json
+
+---
+
+## Sensor Failed
+**Timestamp**: 2026-07-12T13:24:55Z
+**Event**: SENSOR_FAILED
+**Fire id**: fa4d6415
+**Sensor ID**: upstream-coverage
+**Stage slug**: nfr-requirements
+**Output path**: aidlc/spaces/default/intents/260712-markdown-task-manager/construction/functional-design/.learnings-selections.json
+**Detail path**: aidlc/spaces/default/intents/260712-markdown-task-manager/.aidlc-sensors/nfr-requirements/upstream-coverage-fa4d6415.md
+**Findings count**: 3
+
+---
+
+## Rule Learned
+**Timestamp**: 2026-07-12T13:25:00Z
+**Event**: RULE_LEARNED
+**Stage**: functional-design
+**Candidate-ID**: c2
+**Destination**: /home/oppapili/projects/MarkTask/aidlc/spaces/default/memory/project.md
+**Heading**: ## Decided
+**Source**: orchestrator
+
+---
+
+## Rule Learned
+**Timestamp**: 2026-07-12T13:25:00Z
+**Event**: RULE_LEARNED
+**Stage**: functional-design
+**Candidate-ID**: c3
+**Destination**: /home/oppapili/projects/MarkTask/aidlc/spaces/default/memory/project.md
+**Heading**: ## Decided
+**Source**: orchestrator
+
+---
+
+## Artifact Created
+**Timestamp**: 2026-07-12T13:27:25Z
+**Event**: ARTIFACT_CREATED
+**Tool**: Write
+**File**: /home/oppapili/projects/MarkTask/aidlc/spaces/default/intents/260712-markdown-task-manager/construction/nfr-requirements/memory.md
+**Context**: construction > nfr-requirements > memory.md
+
+---
+
+## Sensor Fired
+**Timestamp**: 2026-07-12T13:27:25Z
+**Event**: SENSOR_FIRED
+**Fire id**: 052d3c9f
+**Sensor ID**: required-sections
+**Stage slug**: nfr-requirements
+**Output path**: aidlc/spaces/default/intents/260712-markdown-task-manager/construction/nfr-requirements/memory.md
+
+---
+
+## Sensor Passed
+**Timestamp**: 2026-07-12T13:27:25Z
+**Event**: SENSOR_PASSED
+**Fire id**: 052d3c9f
+**Sensor ID**: required-sections
+**Stage slug**: nfr-requirements
+**Output path**: aidlc/spaces/default/intents/260712-markdown-task-manager/construction/nfr-requirements/memory.md
+**Duration ms**: 18
+
+---
+
+## Sensor Fired
+**Timestamp**: 2026-07-12T13:27:25Z
+**Event**: SENSOR_FIRED
+**Fire id**: 4fb37ed0
+**Sensor ID**: upstream-coverage
+**Stage slug**: nfr-requirements
+**Output path**: aidlc/spaces/default/intents/260712-markdown-task-manager/construction/nfr-requirements/memory.md
+
+---
+
+## Sensor Failed
+**Timestamp**: 2026-07-12T13:27:25Z
+**Event**: SENSOR_FAILED
+**Fire id**: 4fb37ed0
+**Sensor ID**: upstream-coverage
+**Stage slug**: nfr-requirements
+**Output path**: aidlc/spaces/default/intents/260712-markdown-task-manager/construction/nfr-requirements/memory.md
+**Detail path**: aidlc/spaces/default/intents/260712-markdown-task-manager/.aidlc-sensors/nfr-requirements/upstream-coverage-4fb37ed0.md
+**Findings count**: 2
+
+---
+
+## Artifact Created
+**Timestamp**: 2026-07-12T13:27:45Z
+**Event**: ARTIFACT_CREATED
+**Tool**: Write
+**File**: /home/oppapili/projects/MarkTask/aidlc/spaces/default/intents/260712-markdown-task-manager/construction/U-task-core/nfr-requirements/security-requirements.md
+**Context**: construction > U-task-core > nfr-requirements > security-requirements.md
+
+---
+
+## Sensor Fired
+**Timestamp**: 2026-07-12T13:27:45Z
+**Event**: SENSOR_FIRED
+**Fire id**: 0e448164
+**Sensor ID**: required-sections
+**Stage slug**: nfr-requirements
+**Output path**: aidlc/spaces/default/intents/260712-markdown-task-manager/construction/U-task-core/nfr-requirements/security-requirements.md
+
+---
+
+## Sensor Passed
+**Timestamp**: 2026-07-12T13:27:45Z
+**Event**: SENSOR_PASSED
+**Fire id**: 0e448164
+**Sensor ID**: required-sections
+**Stage slug**: nfr-requirements
+**Output path**: aidlc/spaces/default/intents/260712-markdown-task-manager/construction/U-task-core/nfr-requirements/security-requirements.md
+**Duration ms**: 17
+
+---
+
+## Sensor Fired
+**Timestamp**: 2026-07-12T13:27:45Z
+**Event**: SENSOR_FIRED
+**Fire id**: 110c3bea
+**Sensor ID**: upstream-coverage
+**Stage slug**: nfr-requirements
+**Output path**: aidlc/spaces/default/intents/260712-markdown-task-manager/construction/U-task-core/nfr-requirements/security-requirements.md
+
+---
+
+## Sensor Passed
+**Timestamp**: 2026-07-12T13:27:46Z
+**Event**: SENSOR_PASSED
+**Fire id**: 110c3bea
+**Sensor ID**: upstream-coverage
+**Stage slug**: nfr-requirements
+**Output path**: aidlc/spaces/default/intents/260712-markdown-task-manager/construction/U-task-core/nfr-requirements/security-requirements.md
+**Duration ms**: 19
+
+---
+
+## Artifact Created
+**Timestamp**: 2026-07-12T13:27:59Z
+**Event**: ARTIFACT_CREATED
+**Tool**: Write
+**File**: /home/oppapili/projects/MarkTask/aidlc/spaces/default/intents/260712-markdown-task-manager/construction/U-task-core/nfr-requirements/tech-stack-decisions.md
+**Context**: construction > U-task-core > nfr-requirements > tech-stack-decisions.md
+
+---
+
+## Sensor Fired
+**Timestamp**: 2026-07-12T13:27:59Z
+**Event**: SENSOR_FIRED
+**Fire id**: 426d7047
+**Sensor ID**: required-sections
+**Stage slug**: nfr-requirements
+**Output path**: aidlc/spaces/default/intents/260712-markdown-task-manager/construction/U-task-core/nfr-requirements/tech-stack-decisions.md
+
+---
+
+## Sensor Passed
+**Timestamp**: 2026-07-12T13:27:59Z
+**Event**: SENSOR_PASSED
+**Fire id**: 426d7047
+**Sensor ID**: required-sections
+**Stage slug**: nfr-requirements
+**Output path**: aidlc/spaces/default/intents/260712-markdown-task-manager/construction/U-task-core/nfr-requirements/tech-stack-decisions.md
+**Duration ms**: 17
+
+---
+
+## Sensor Fired
+**Timestamp**: 2026-07-12T13:27:59Z
+**Event**: SENSOR_FIRED
+**Fire id**: bdb5cb3c
+**Sensor ID**: upstream-coverage
+**Stage slug**: nfr-requirements
+**Output path**: aidlc/spaces/default/intents/260712-markdown-task-manager/construction/U-task-core/nfr-requirements/tech-stack-decisions.md
+
+---
+
+## Sensor Passed
+**Timestamp**: 2026-07-12T13:27:59Z
+**Event**: SENSOR_PASSED
+**Fire id**: bdb5cb3c
+**Sensor ID**: upstream-coverage
+**Stage slug**: nfr-requirements
+**Output path**: aidlc/spaces/default/intents/260712-markdown-task-manager/construction/U-task-core/nfr-requirements/tech-stack-decisions.md
+**Duration ms**: 17
+
+---
+
+## Subagent Completed
+**Timestamp**: 2026-07-12T13:30:57Z
+**Event**: SUBAGENT_COMPLETED
+**Agent Type**: aidlc-architecture-reviewer-agent
+**Agent ID**: f07eb154-0c12-484d-9fb0-5f8dbcd7eac6
+
+---
+
+## Artifact Created
+**Timestamp**: 2026-07-12T13:31:31Z
+**Event**: ARTIFACT_CREATED
+**Tool**: Write
+**File**: /home/oppapili/projects/MarkTask/aidlc/spaces/default/intents/260712-markdown-task-manager/construction/U-delete-archive/nfr-requirements/security-requirements.md
+**Context**: construction > U-delete-archive > nfr-requirements > security-requirements.md
+
+---
+
+## Sensor Fired
+**Timestamp**: 2026-07-12T13:31:31Z
+**Event**: SENSOR_FIRED
+**Fire id**: 4631d958
+**Sensor ID**: required-sections
+**Stage slug**: nfr-requirements
+**Output path**: aidlc/spaces/default/intents/260712-markdown-task-manager/construction/U-delete-archive/nfr-requirements/security-requirements.md
+
+---
+
+## Sensor Passed
+**Timestamp**: 2026-07-12T13:31:31Z
+**Event**: SENSOR_PASSED
+**Fire id**: 4631d958
+**Sensor ID**: required-sections
+**Stage slug**: nfr-requirements
+**Output path**: aidlc/spaces/default/intents/260712-markdown-task-manager/construction/U-delete-archive/nfr-requirements/security-requirements.md
+**Duration ms**: 18
+
+---
+
+## Sensor Fired
+**Timestamp**: 2026-07-12T13:31:31Z
+**Event**: SENSOR_FIRED
+**Fire id**: dd4177a6
+**Sensor ID**: upstream-coverage
+**Stage slug**: nfr-requirements
+**Output path**: aidlc/spaces/default/intents/260712-markdown-task-manager/construction/U-delete-archive/nfr-requirements/security-requirements.md
+
+---
+
+## Sensor Passed
+**Timestamp**: 2026-07-12T13:31:31Z
+**Event**: SENSOR_PASSED
+**Fire id**: dd4177a6
+**Sensor ID**: upstream-coverage
+**Stage slug**: nfr-requirements
+**Output path**: aidlc/spaces/default/intents/260712-markdown-task-manager/construction/U-delete-archive/nfr-requirements/security-requirements.md
+**Duration ms**: 17
+
+---
+
+## Artifact Created
+**Timestamp**: 2026-07-12T13:31:42Z
+**Event**: ARTIFACT_CREATED
+**Tool**: Write
+**File**: /home/oppapili/projects/MarkTask/aidlc/spaces/default/intents/260712-markdown-task-manager/construction/U-delete-archive/nfr-requirements/tech-stack-decisions.md
+**Context**: construction > U-delete-archive > nfr-requirements > tech-stack-decisions.md
+
+---
+
+## Sensor Fired
+**Timestamp**: 2026-07-12T13:31:42Z
+**Event**: SENSOR_FIRED
+**Fire id**: 8b107bc5
+**Sensor ID**: required-sections
+**Stage slug**: nfr-requirements
+**Output path**: aidlc/spaces/default/intents/260712-markdown-task-manager/construction/U-delete-archive/nfr-requirements/tech-stack-decisions.md
+
+---
+
+## Sensor Passed
+**Timestamp**: 2026-07-12T13:31:42Z
+**Event**: SENSOR_PASSED
+**Fire id**: 8b107bc5
+**Sensor ID**: required-sections
+**Stage slug**: nfr-requirements
+**Output path**: aidlc/spaces/default/intents/260712-markdown-task-manager/construction/U-delete-archive/nfr-requirements/tech-stack-decisions.md
+**Duration ms**: 18
+
+---
+
+## Sensor Fired
+**Timestamp**: 2026-07-12T13:31:42Z
+**Event**: SENSOR_FIRED
+**Fire id**: 5f3458f3
+**Sensor ID**: upstream-coverage
+**Stage slug**: nfr-requirements
+**Output path**: aidlc/spaces/default/intents/260712-markdown-task-manager/construction/U-delete-archive/nfr-requirements/tech-stack-decisions.md
+
+---
+
+## Sensor Passed
+**Timestamp**: 2026-07-12T13:31:42Z
+**Event**: SENSOR_PASSED
+**Fire id**: 5f3458f3
+**Sensor ID**: upstream-coverage
+**Stage slug**: nfr-requirements
+**Output path**: aidlc/spaces/default/intents/260712-markdown-task-manager/construction/U-delete-archive/nfr-requirements/tech-stack-decisions.md
+**Duration ms**: 18
+
+---
+
+## Subagent Completed
+**Timestamp**: 2026-07-12T13:33:31Z
+**Event**: SUBAGENT_COMPLETED
+**Agent Type**: aidlc-architecture-reviewer-agent
+**Agent ID**: f07eb154-0c12-484d-9fb0-5f8dbcd7eac6
+
+---
+
+## Workflow Parked
+**Timestamp**: 2026-07-12T13:34:50Z
+**Event**: WORKFLOW_PARKED
+**Stage**: nfr-requirements
+**Timestamp**: 2026-07-12T13:34:50Z
+
+---
+
+## Human Turn
+**Timestamp**: 2026-07-12T13:35:09Z
+**Event**: HUMAN_TURN
+
+---

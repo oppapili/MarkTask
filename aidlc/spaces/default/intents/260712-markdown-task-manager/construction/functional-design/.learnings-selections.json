@@ -1,0 +1,19 @@
+{
+  "stage_slug": "functional-design",
+  "selections": [
+    {
+      "type": "learning",
+      "candidate_id": "c2",
+      "scope": "project",
+      "heading": "## Decided",
+      "text": "recurrence の端ケースを functional-design で確定: 次回 due は予定ベース加算だが結果が今日以下なら未来の最初の発生日までスキップ（missed をまとめて消化）／月内日指定は月末 clamp（every month on 31→短い月は月末, last=各月末）／曜日指定は起点翌日以降の最近該当日／`xN` の残回数は `repeat` 文字列内で減算保持（別カウンタ field を足さず Dataview 可読を維持）。"
+    },
+    {
+      "type": "learning",
+      "candidate_id": "c3",
+      "scope": "project",
+      "heading": "## Decided",
+      "text": "サブタスク完了ガードの「完了扱い」を確定（functional-design, OQ-4）: 子が `done` または `cancelled` なら非ブロッキング（意図的中止は親完了を妨げない）、`todo/in-progress/waiting` はブロッキング。多階層は再帰適用、循環リンクは visited で保護、`done --force` でガード上書き可。"
+    }
+  ]
+}

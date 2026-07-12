@@ -57,6 +57,8 @@
 - 設定ファイル形式は YAML に確定（application-design Q5 / ADR-6）: `~/.config/marktask/config.yaml`（XDG）。requirements-analysis の暫定 TOML を上書き。理由＝frontmatter で既に YAML 依存があり、追加パーサ(TOML)を避けて導入障壁を下げる（不要な依存を増やさない方針）。 (learned 2026-07-12) <!-- cid:application-design:c2 -->
 - 技術スタック確定（application-design）: TypeScript + bun / CLI=commander / frontmatter=gray-matter+yaml / 日付・recurrence=date-fns / config=YAML / formatter+linter=Prettier+ESLint / 単一パッケージ(src/core|cli|mcp) / テスト=bun:test。選定方針＝不要な依存を増やさず、周辺で主流のツールに合わせて知見の展開・共有・移植性を確保する。 (learned 2026-07-12) <!-- cid:application-design:c3 -->
 - Bolt 列を walking-skeleton-first ＋ risk-first ハイブリッドで確定（delivery-planning）: Bolt1=歩く骨格(add/list/done, gated) / Bolt2=メタ+5状態 / Bolt3=recurrence(最リスクを早期) / Bolt4=検索+サブタスク / Bolt5=削除退避+MCP / Bolt6=Obsidian(Could)。逐次実行(solo/AI)。recurrence の Bolt3 前倒しは依存(task-core/state-management)充足済みで DAG 適合。 (learned 2026-07-12) <!-- cid:delivery-planning:c2 -->
+- recurrence の端ケースを functional-design で確定: 次回 due は予定ベース加算だが結果が今日以下なら未来の最初の発生日までスキップ（missed をまとめて消化）／月内日指定は月末 clamp（every month on 31→短い月は月末, last=各月末）／曜日指定は起点翌日以降の最近該当日／`xN` の残回数は `repeat` 文字列内で減算保持（別カウンタ field を足さず Dataview 可読を維持）。 (learned 2026-07-12) <!-- cid:functional-design:c2 -->
+- サブタスク完了ガードの「完了扱い」を確定（functional-design, OQ-4）: 子が `done` または `cancelled` なら非ブロッキング（意図的中止は親完了を妨げない）、`todo/in-progress/waiting` はブロッキング。多階層は再帰適用、循環リンクは visited で保護、`done --force` でガード上書き可。 (learned 2026-07-12) <!-- cid:functional-design:c3 -->
 ## Scope Overrides
 
 <!-- Custom scope rules for this project. -->
