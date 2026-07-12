@@ -1,0 +1,13 @@
+{
+  "stage_slug": "feasibility",
+  "selections": [
+    {
+      "candidate_id": "c2",
+      "type": "learning",
+      "scope": "project",
+      "heading": "Decided",
+      "text": "recurrenceの繰り返しルールは独自の簡易記法で表現し、Dataviewで読めるfrontmatterフィールドとして保持する。記法はREADMEに明記してユーザに分かりやすくする。Obsidian Tasksプラグインの記法互換はMVP対象外（将来検討）。",
+      "source": "orchestrator"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "stage_slug": "intent-capture",
+  "selections": [
+    {
+      "candidate_id": "c2",
+      "type": "learning",
+      "scope": "project",
+      "heading": "Tech Stack",
+      "text": "Obsidianを第一級の連携先とする。タスクのMarkdownファイルはObsidian vault内で自然に扱え、wikilink（[[...]]）でタスクのメモを既存のナレッジノートと相互リンクできること。",
+      "source": "orchestrator"
+    },
+    {
+      "candidate_id": "c3",
+      "type": "learning",
+      "scope": "project",
+      "heading": "Decided",
+      "text": "recurrence（繰り返しタスク）はMVPスコープに含める。表現方式はfrontmatterに繰り返しルールを書く単一ファイル方式を志向し、完了ごとに新ファイルを生成する方式は採らない（命名衝突と履歴分断を避けるため）。",
+      "source": "orchestrator"
+    },
+    {
+      "candidate_id": "c4",
+      "type": "learning",
+      "scope": "project",
+      "heading": "Tech Stack",
+      "text": "MVPの主要インタフェースは CLI ＋ Obsidian互換のMarkdownファイル形式（frontmatter＋wikilink）＋ MCP（Model Context Protocol）サーバ（生成AIがツールとして操作可能）。独自GUI（デスクトップ/Webアプリ）は作らない。",
+      "source": "orchestrator"
+    }
+  ]
+}

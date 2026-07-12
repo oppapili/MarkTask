@@ -1,0 +1,13 @@
+# --- AI-DLC: per-user cursors (do not commit) ---
+aidlc/active-space
+aidlc/spaces/*/intents/active-intent
+
+# --- AI-DLC: per-clone token, sessions, and machine-local runtime under aidlc/ ---
+aidlc/.aidlc-*
+
+# --- AI-DLC: per-intent runtime graph (also covers per-Bolt worktree fragments) ---
+aidlc/spaces/*/intents/*/runtime-graph.json
+
+# --- AI-DLC: recovery, hooks-health, stop-hook, sensors scratch ---
+aidlc/spaces/*/intents/.aidlc-*
+aidlc/spaces/*/intents/*/.aidlc-*
