@@ -11,3 +11,14 @@ aidlc/spaces/*/intents/*/runtime-graph.json
 # --- AI-DLC: recovery, hooks-health, stop-hook, sensors scratch ---
 aidlc/spaces/*/intents/.aidlc-*
 aidlc/spaces/*/intents/*/.aidlc-*
+
+# --- Project: marktask ---
+node_modules/
+dist/
+*.tsbuildinfo
+.DS_Store
+Thumbs.db
+.env
+.env.local
+.env.*.local
+bun.lockb

@@ -6,14 +6,14 @@
 - **Scope**: mvp
 - **Start Date**: 2026-07-12T04:41:33Z
 - **State Version**: 7
-- **Active Agent**: aidlc-architect-agent
+- **Active Agent**: aidlc-developer-agent
 - **Worktree Path**:
 - **Bolt Refs**:
 - **Practices Affirmed Timestamp**:
 
 ## Scope Configuration
-- **Stages to Execute**: 0.1, 0.2, 0.3, 1.1, 1.3, 1.4, 1.6, 2.2, 2.3, 2.4, 2.5, 2.6, 2.7, 2.8, 3.1, 3.2, 3.3, 3.4, 3.5, 3.6, 3.7
-- **Stages to Skip**: 1.2 (market-research), 1.5 (team-formation), 1.7 (approval-handoff), 4.1 (deployment-pipeline), 4.2 (environment-provisioning), 4.3 (deployment-execution), 4.4 (observability-setup), 4.5 (incident-response), 4.6 (performance-validation), 4.7 (feedback-optimization), 2.1 (reverse-engineering — greenfield)
+- **Stages to Execute**: 0.1, 0.2, 0.3, 1.1, 1.3, 1.4, 1.6, 2.2, 2.3, 2.4, 2.5, 2.6, 2.7, 2.8, 3.1, 3.2, 3.5, 3.6, 3.7
+- **Stages to Skip**: 1.2 (market-research), 1.5 (team-formation), 1.7 (approval-handoff), 4.1 (deployment-pipeline), 4.2 (environment-provisioning), 4.3 (deployment-execution), 4.4 (observability-setup), 4.5 (incident-response), 4.6 (performance-validation), 4.7 (feedback-optimization), 2.1 (reverse-engineering — greenfield), 3.3 (nfr-design), 3.4 (infrastructure-design)
 - **Depth**: Standard
 - **Test Strategy**: Standard
 
@@ -24,16 +24,16 @@
 - **Build System**: Unknown
 
 ## Execution Plan Summary
-- **Total Stages**: 21
-- **Completed**: 15
-- **In Progress**: nfr-requirements
+- **Total Stages**: 19
+- **Completed**: 16
+- **In Progress**: code-generation
 
 ## Runtime State
 - **Revision Count**: 0
 
 - **Skeleton Stance**: on
-- **Parked**: 2026-07-12T13:34:50Z
-- **Parked At Stage**: nfr-requirements
+- **Parked**: 2026-07-12T14:13:21Z
+- **Parked At Stage**: code-generation
 ## Phase Progress
 <!-- Status values: Pending, Active, Verified, Skipped -->
 
@@ -73,10 +73,10 @@
 ### CONSTRUCTION PHASE
 Per unit: [TBD]
 - [x] functional-design — EXECUTE
-- [-] nfr-requirements — EXECUTE
-- [ ] nfr-design — EXECUTE
-- [ ] infrastructure-design — EXECUTE
-- [ ] code-generation — EXECUTE
+- [x] nfr-requirements — EXECUTE
+- [ ] nfr-design — SKIP
+- [ ] infrastructure-design — SKIP
+- [-] code-generation — EXECUTE
 - [ ] build-and-test — EXECUTE
 - [ ] ci-pipeline — EXECUTE
 
@@ -91,12 +91,12 @@ Per unit: [TBD]
 
 ## Current Status
 - **Lifecycle Phase**: CONSTRUCTION
-- **Current Stage**: nfr-requirements
-- **Next Stage**: nfr-design
+- **Current Stage**: code-generation
+- **Next Stage**: build-and-test
 - **Status**: Running
-- **Last Updated**: 2026-07-12T13:34:50Z
+- **Last Updated**: 2026-07-12T14:13:21Z
 
 ## Session Resume Point
-- **Last Completed Stage**: functional-design
-- **Next Action**: Execute NFR Requirements
+- **Last Completed Stage**: nfr-requirements
+- **Next Action**: Execute Code Generation
 - **Pending Artifacts**: none
