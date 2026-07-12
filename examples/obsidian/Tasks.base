@@ -1,0 +1,30 @@
+# Obsidian Bases definition (example) — MarkTask
+# Drop this into your vault and open as a Base. Illustrative: Bases syntax
+# varies by Obsidian version; adjust property/operator names to your build.
+# Shows active tasks (type=task, not done) as a table.
+
+filters:
+  and:
+    - 'type == "task"'
+    - 'status != "done"'
+
+views:
+  - type: table
+    name: Active Tasks
+    order:
+      - file.name      # ファイル名 = タイトル兼参照キー
+      - status
+      - priority
+      - due
+      - project
+
+  - type: table
+    name: Recurring
+    filters:
+      and:
+        - 'type == "recurrence"'
+    order:
+      - file.name
+      - repeat
+      - due
+      - last_done

@@ -56,6 +56,16 @@ trashDir: tasks/.trash
 archiveDir: archive
 ```
 
+## Obsidian
+
+Tasks are plain `.md` files, so they work directly inside an Obsidian vault:
+
+- **Bases / Dataview**: filter and list tasks by `type` / `status` / `priority` / `due` / `project`.
+- **Wikilinks**: link task bodies to knowledge notes with `[[...]]`; subtasks reference a parent via `parent: "[[<parent-ref>]]"`.
+- **Soft delete**: `delete` moves a file to `tasks/.trash/` (a dotfolder), so it drops out of normal listings but stays recoverable.
+
+See `examples/obsidian/` for a sample `Tasks.base`, sample task/recurrence/subtask files, and a walkthrough. (Recurrence syntax is documented under Task File Format / the recurrence unit — e.g. `repeat: every 1 month`.)
+
 ## License
 
 MIT

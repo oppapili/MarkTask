@@ -184,6 +184,21 @@ export class TaskRepository {
     this.archiveDir = paths.archiveDir;
   }
 
+  /** Active tasks directory path. */
+  getTasksDir(): string {
+    return this.tasksDir;
+  }
+
+  /** Trash directory path (soft-delete destination). */
+  getTrashDir(): string {
+    return this.trashDir;
+  }
+
+  /** Archive directory path. */
+  getArchiveDir(): string {
+    return this.archiveDir;
+  }
+
   /**
    * Ensure required directories exist.
    */
@@ -308,6 +323,58 @@ export class TaskRepository {
    */
   moveToTrash(ref: string): Result<void, AppError> {
     return this.moveTask(ref, this.tasksDir, this.trashDir);
+  }
+
+  /**
+   * List all active tasks (tasksDir) decoded into Task objects.
+   * Fails fast on any decode/read error (construction guardrail: never silently skip).
+   */
+  async list(): Promise<Result<Task[], AppError>> {
+    const refsResult = this.listRefs();
+    if (!refsResult.ok) return refsResult;
+
+    const tasks: Task[] = [];
+    for (const ref of refsResult.value) {
+      const readResult = await this.read(ref);
+      if (!readResult.ok) return readResult;
+      tasks.push(readResult.value);
+    }
+    return ok(tasks);
+  }
+
+  /**
+   * List all archived tasks decoded into Task objects.
+   * Returns ok([]) when archiveDir does not exist.
+   * Fails fast on any decode error (construction guardrail).
+   */
+  async listArchived(): Promise<Result<Task[], AppError>> {
+    try {
+      if (!existsSync(this.archiveDir)) {
+        return ok([]);
+      }
+      const files = readdirSync(this.archiveDir, { withFileTypes: true });
+      const mdFiles = files.filter((f) => f.isFile() && f.name.endsWith('.md'));
+
+      const tasks: Task[] = [];
+      for (const file of mdFiles) {
+        const filePath = join(this.archiveDir, file.name);
+        const ref = file.name.replace(/\.md$/, '');
+        try {
+          const content = await readFile(filePath, 'utf-8');
+          const task = decode(content, ref);
+          tasks.push(task);
+        } catch (e: unknown) {
+          return err(
+            appError('io', `Failed to read archived task "${ref}": ${e instanceof Error ? e.message : String(e)}`, { cause: e }),
+          );
+        }
+      }
+      return ok(tasks);
+    } catch (e: unknown) {
+      return err(
+        appError('io', `Failed to list archived tasks: ${e instanceof Error ? e.message : String(e)}`, { cause: e }),
+      );
+    }
   }
 
   /**
