@@ -127,4 +127,4 @@ scedule: every 1 month # recurrence。任意。独自簡易記法。
 - C. Skip and revisit — レビューを省略して承認ゲートへ
 - X. その他
 
-[Answer]:
+[Answer]:A. Retry — 再開セッションでサブエージェント起動を再試行。iteration 1 は NOT-READY（Q6 の解釈誤り）だったため builder が実対応、iteration 2 で READY。

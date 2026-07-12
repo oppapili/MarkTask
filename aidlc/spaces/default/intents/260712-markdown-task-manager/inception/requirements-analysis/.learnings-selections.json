@@ -1,0 +1,19 @@
+{
+  "stage_slug": "requirements-analysis",
+  "selections": [
+    {
+      "type": "learning",
+      "candidate_id": "c2",
+      "scope": "project",
+      "heading": "## Decided",
+      "text": "delete と archive は別 operation とする（requirements-analysis Q9）: delete=ソフト削除でファイルを `tasks/.trash/` へ移動（誤り/不要の除去・復旧可）、archive=完了/非アクティブの退避（別コマンド・意図が異なる）。ハード削除は提供しない（git がセーフティネット）。ソフト削除ゆえ MCP で delete を公開しても誤削除リスクが緩和され、MCP 側の confirm 必須は課さない。"
+    },
+    {
+      "type": "learning",
+      "candidate_id": "c3",
+      "scope": "project",
+      "heading": "## Decided",
+      "text": "recurrence 独自簡易記法の MVP サポート範囲を確定（requirements-analysis Q1）: 基本間隔 `every N days/weeks/months/years`／曜日 `every <weekday>`（複数可）／月内日 `every month on <1-31|last>`／キーワード daily・weekly・monthly・yearly／終了条件 `until <YYYY-MM-DD>`・`xN`。次回 due は予定ベース（前回 due に加算, Q2=A）で `last_done` を保持。U5(recurrence) が最重要かつ最リスク Unit。"
+    }
+  ]
+}

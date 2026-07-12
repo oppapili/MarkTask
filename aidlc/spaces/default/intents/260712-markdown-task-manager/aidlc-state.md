@@ -6,7 +6,7 @@
 - **Scope**: mvp
 - **Start Date**: 2026-07-12T04:41:33Z
 - **State Version**: 7
-- **Active Agent**: aidlc-design-agent
+- **Active Agent**: aidlc-architect-agent
 - **Worktree Path**:
 - **Bolt Refs**:
 - **Practices Affirmed Timestamp**:
@@ -25,12 +25,15 @@
 
 ## Execution Plan Summary
 - **Total Stages**: 21
-- **Completed**: 6
-- **In Progress**: rough-mockups
+- **Completed**: 14
+- **In Progress**: functional-design
 
 ## Runtime State
 - **Revision Count**: 0
 
+- **Skeleton Stance**: on
+- **Parked**: 2026-07-12T12:38:47Z
+- **Parked At Stage**: functional-design
 ## Phase Progress
 <!-- Status values: Pending, Active, Verified, Skipped -->
 
@@ -54,22 +57,22 @@
 - [x] feasibility — EXECUTE
 - [x] scope-definition — EXECUTE
 - [ ] team-formation — SKIP
-- [-] rough-mockups — EXECUTE
+- [x] rough-mockups — EXECUTE
 - [ ] approval-handoff — SKIP
 
 ### INCEPTION PHASE
 - [ ] reverse-engineering — SKIP
-- [ ] practices-discovery — EXECUTE
-- [ ] requirements-analysis — EXECUTE
-- [ ] user-stories — EXECUTE
-- [ ] refined-mockups — EXECUTE
-- [ ] application-design — EXECUTE
-- [ ] units-generation — EXECUTE
-- [ ] delivery-planning — EXECUTE
+- [x] practices-discovery — EXECUTE
+- [x] requirements-analysis — EXECUTE
+- [x] user-stories — EXECUTE
+- [x] refined-mockups — EXECUTE
+- [x] application-design — EXECUTE
+- [x] units-generation — EXECUTE
+- [x] delivery-planning — EXECUTE
 
 ### CONSTRUCTION PHASE
 Per unit: [TBD]
-- [ ] functional-design — EXECUTE
+- [-] functional-design — EXECUTE
 - [ ] nfr-requirements — EXECUTE
 - [ ] nfr-design — EXECUTE
 - [ ] infrastructure-design — EXECUTE
@@ -87,13 +90,13 @@ Per unit: [TBD]
 - [ ] feedback-optimization — SKIP
 
 ## Current Status
-- **Lifecycle Phase**: IDEATION
-- **Current Stage**: rough-mockups
-- **Next Stage**: practices-discovery
+- **Lifecycle Phase**: CONSTRUCTION
+- **Current Stage**: functional-design
+- **Next Stage**: nfr-requirements
 - **Status**: Running
-- **Last Updated**: 2026-07-12T05:46:00Z
+- **Last Updated**: 2026-07-12T12:38:47Z
 
 ## Session Resume Point
-- **Last Completed Stage**: scope-definition
-- **Next Action**: Execute Rough Mockups
+- **Last Completed Stage**: delivery-planning
+- **Next Action**: Execute Functional Design
 - **Pending Artifacts**: none

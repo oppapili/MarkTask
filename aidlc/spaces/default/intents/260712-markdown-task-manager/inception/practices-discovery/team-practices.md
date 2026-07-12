@@ -1,8 +1,8 @@
-# Team-Level Rules
+# Team Practices — MarkTask
 
-> This team's affirmed practices and corrections. Overrides aidlc-org.md.
-> Populated by practices-discovery affirmation gate. Edit at the gate,
-> not directly.
+> Inception / practices-discovery 成果物（記述的・チームの声）。承認ゲートで `aidlc-team.md` の各セクションに昇格する。
+> 個人開発プロジェクトのため「チーム」＝開発者本人。Greenfield・mvp・ローカル運用が前提。
+> 由来: practices-discovery-questions.md（Q1〜Q6）／org 既定を出発点に確定。
 
 ## Way of Working
 
@@ -23,14 +23,3 @@ walking-skeleton-first を採用する。最初の Bolt は最小の縦切り（
 ## Code Style
 
 言語標準の規約に従い、フォーマッタ＋リンタを CI で実行する（失敗はマージをブロック）。具体的なツール選定（例: Prettier + ESLint か Biome か）は技術スタック確定後に application-design で最終化する。現時点の想定スタックは TypeScript / bun。
-## Forbidden
-
-<!-- Team-specific forbidden patterns -->
-
-## Mandated
-
-<!-- Team-specific mandates -->
-
-## Corrections
-
-<!-- Self-learning loop appends here. -->

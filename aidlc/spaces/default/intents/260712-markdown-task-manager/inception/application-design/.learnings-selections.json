@@ -1,0 +1,26 @@
+{
+  "stage_slug": "application-design",
+  "selections": [
+    {
+      "type": "learning",
+      "candidate_id": "c2",
+      "scope": "project",
+      "heading": "## Decided",
+      "text": "設定ファイル形式は YAML に確定（application-design Q5 / ADR-6）: `~/.config/marktask/config.yaml`（XDG）。requirements-analysis の暫定 TOML を上書き。理由＝frontmatter で既に YAML 依存があり、追加パーサ(TOML)を避けて導入障壁を下げる（不要な依存を増やさない方針）。"
+    },
+    {
+      "type": "learning",
+      "candidate_id": "c3",
+      "scope": "project",
+      "heading": "## Decided",
+      "text": "技術スタック確定（application-design）: TypeScript + bun / CLI=commander / frontmatter=gray-matter+yaml / 日付・recurrence=date-fns / config=YAML / formatter+linter=Prettier+ESLint / 単一パッケージ(src/core|cli|mcp) / テスト=bun:test。選定方針＝不要な依存を増やさず、周辺で主流のツールに合わせて知見の展開・共有・移植性を確保する。"
+    },
+    {
+      "type": "learning",
+      "candidate_id": "c4",
+      "scope": "project",
+      "heading": "## Corrections",
+      "text": "formatter/linter は Prettier + ESLint に確定（application-design Q6, team-practices の保留を確定・Biome 不採用）。理由＝周辺でメジャーに使われており、主流に迎合することで知見の展開・共有・移植を可能にするため。CI で実行し失敗はマージをブロック（既存 Mandated と整合）。"
+    }
+  ]
+}

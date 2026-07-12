@@ -1,0 +1,19 @@
+{
+  "stage_slug": "rough-mockups",
+  "selections": [
+    {
+      "type": "learning",
+      "candidate_id": "c2",
+      "scope": "project",
+      "heading": "## Corrections",
+      "text": "レビュア（§12a）の指摘は、フォローアップの提案文ではなく質問ファイルの実際の `[Answer]:`（ユーザーの上書き回答）と突き合わせて検証し、正当な指摘のみ反映する。"
+    },
+    {
+      "type": "learning",
+      "candidate_id": "c3",
+      "scope": "project",
+      "heading": "## Decided",
+      "text": "タスクファイルの frontmatter スキーマ確定（Q6, rough-mockups）: ファイル名＝参照キー `<作成日>-<slug>.md`（frontmatter に `id`・`title` を持たない, DRY）／状態は5つ（todo/in-progress/done/waiting/cancelled, `inbox` 不採用）／recurrence は `repeat` のみ（`scheduled` 不採用）／frontmatter は Obsidian Bases 対応（`type`/`status` 等でフィルタ）かつ Dataview 互換。"
+    }
+  ]
+}
