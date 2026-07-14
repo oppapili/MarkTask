@@ -1,14 +1,15 @@
 /**
- * ConfigManager — loads and resolves MarkTask configuration.
+ * ConfigManager — loads, resolves, and writes MarkTask configuration.
  * XDG path: ~/.config/marktask/config.yaml
  * Falls back to DEFAULT_CONFIG when file is absent.
  * Ref: business-logic-model.md §7, business-rules.md R13-R14
  */
 
-import { readFileSync } from 'node:fs';
-import { resolve, isAbsolute } from 'node:path';
+import { readFileSync, mkdirSync, writeFileSync, renameSync, unlinkSync, existsSync } from 'node:fs';
+import { resolve, isAbsolute, dirname } from 'node:path';
 import { homedir } from 'node:os';
-import { parse as parseYaml } from 'yaml';
+import { randomBytes } from 'node:crypto';
+import { parse as parseYaml, stringify as stringifyYaml } from 'yaml';
 import { type Config, DEFAULT_CONFIG, type Result, ok, err, type AppError, appError } from './types.js';
 
 /** XDG config path */
@@ -74,4 +75,60 @@ export function resolvePaths(config: Config, baseDir: string): ResolvedPaths {
     trashDir: resolvePath(config.trashDir, baseDir),
     archiveDir: resolvePath(config.archiveDir, baseDir),
   };
+}
+
+/** Valid config keys that may be set via CLI. */
+const VALID_CONFIG_KEYS: ReadonlySet<string> = new Set([
+  'tasksDir',
+  'trashDir',
+  'archiveDir',
+]);
+
+/**
+ * Write a Config to disk atomically at the XDG config path.
+ * Creates parent directories if needed.
+ */
+export function writeConfig(config: Config): Result<void, AppError> {
+  const path = configPath();
+  const dir = dirname(path);
+  const content = stringifyYaml(config);
+  const tmpPath = `${path}.tmp-${process.pid}-${randomBytes(4).toString('hex')}`;
+
+  try {
+    mkdirSync(dir, { recursive: true });
+    writeFileSync(tmpPath, content, 'utf-8');
+    renameSync(tmpPath, path);
+    return ok(undefined);
+  } catch (e: unknown) {
+    try {
+      if (existsSync(tmpPath)) unlinkSync(tmpPath);
+    } catch {
+      // ignore cleanup failure
+    }
+    return err(
+      appError('config', `Failed to write config: ${path}: ${e instanceof Error ? e.message : String(e)}`, { cause: e }),
+    );
+  }
+}
+
+/**
+ * Set a single config key and persist.
+ * Returns the updated Config on success.
+ * Only keys in {tasksDir, trashDir, archiveDir} are accepted.
+ */
+export function setConfigValue(key: string, value: string): Result<Config, AppError> {
+  if (!VALID_CONFIG_KEYS.has(key)) {
+    return err(
+      appError('config', `Unknown config key "${key}". Valid keys: ${[...VALID_CONFIG_KEYS].join(', ')}`),
+    );
+  }
+
+  const loadResult = loadConfig();
+  if (!loadResult.ok) return loadResult;
+
+  const config = { ...loadResult.value, [key]: value };
+  const writeResult = writeConfig(config);
+  if (!writeResult.ok) return writeResult;
+
+  return ok(config);
 }

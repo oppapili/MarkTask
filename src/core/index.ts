@@ -24,3 +24,30 @@ export {
   DEFAULT_SORT,
 } from './query.js';
 export type { TaskFilter, Sort } from './query.js';
+export { transition, start, wait, cancel, setState, complete } from './state-machine.js';
+export type {
+  CompleteOutcome,
+  RecurrenceRoller,
+  SubtaskGuard,
+  CompleteDeps,
+} from './state-machine.js';
+export {
+  RecurrenceEngine,
+  parse as parseRepeat,
+  nextDue,
+  describe as describeRepeat,
+  stepOnce,
+  stripCount,
+  decrementCount,
+} from './recurrence.js';
+export type { RecurrenceRule, RecurrenceBase, RecurrenceEnd } from './recurrence.js';
+export {
+  SubtaskService,
+  childrenOf,
+  canComplete as canCompleteParent,
+  asSubtaskGuard,
+  parseParentRef,
+  isBlockingStatus,
+} from './subtasks.js';
+export { TaskService } from './task-service.js';
+export type { AddTaskInput, UpdateTaskPatch, CompleteOpts } from './task-service.js';
